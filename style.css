@@ -702,17 +702,28 @@ li:hover{
 	position: absolute;
 	left: 15px;
 	top: 25px;
+	display: none;
 }
 .btn{
 	width: 25px;
 	height: 25px;
 }
 @media screen and (max-width:430px){
+	.en{
+		width: 380px;
+	}
 	body{
-		width: 	430px;
+		width: 	380px;
+		justify-content: flex-start;
 	}
 	header{
-		width: 430px;
+		width: 380px;
+		padding-left: 0;
+		justify-content: flex-start;
+		margin-left: 0;
+	}
+	.info{
+		width: 250px;
 	}
 	.menu{
 		display: none;
@@ -724,9 +735,16 @@ li:hover{
 	}
 	.survive{
 		display: block;
+		padding-top: 100px;
+	}
+	.survive p{
+		font-size: 25px;
 	}
 	.batn-survive{
-		margin-left: 85px;
+		margin-left: 65px;
+	}
+	.batn-survive p{
+		font-size: 20px;
 	}
 	.scrool{
 		padding-top: 200px;
@@ -741,7 +759,7 @@ li:hover{
 	}
 	.list-text2{
 		padding-left: 0px;
-		text-align: center;
+		text-align: none;
 		padding-bottom: 100px;
 		justify-content: center;	
 	}
@@ -773,7 +791,7 @@ li:hover{
 		
 	}
 	.info-games{
-		width: 430px;
+		width: 380px;
 		height: 600px;	
 	}
 	.game-text{
@@ -816,7 +834,7 @@ li:hover{
 		height: 10px;	
 	}
 	.requirements{
-		width: 430px;
+		width: 380px;
 		height: 400px;	
 	}
 	.heador-requirements{
@@ -827,26 +845,27 @@ li:hover{
 	}
 	.pc{
 		margin-left: 5px;
-		width: 420px;	
+		width: 360px;
+		margin-top: 50px;	
 	}
 	.table-os{
 		display: flex;	
 	}
 	.table-os1{
-		width: 420px;	
+		width: 360px;	
 	}
 	.os{
 		padding-right: 13px;	
 	}
 	.os2{
-		padding-right: 120px;	
+		padding-right: 91px;	
 	}
 	.quotes{
 		display: block;
 		padding-bottom: 50px;
 	}
 	.quotes-text{
-		padding-left: 5px;	
+		padding-left: 7px;	
 		padding-top: 15px;	
 	}
 	.quotes-text h2{
@@ -856,21 +875,21 @@ li:hover{
 		padding-left: 90px;	
 	}
 	.comment{
-		padding-left: 5px;
+		padding-left: 0px;
 		padding-top: 19px;	
 		margin-top: 5px;	
 	}
 	.comment1{
-		margin-left: 5px;
-		width: 380px;	
+		margin-left: 2px;
+		width: 340px;	
 	}
 	.comment2{
-		margin-left: 5px;
-		width: 380px;	
+		margin-left: 2px;
+		width: 340px;	
 	}
 	.comment3{
-		margin-left: 5px;
-		width: 380px;	
+		margin-left: 2px;
+		width: 340px;	
 	}
 	.status{
 		width: 190px;	
@@ -879,7 +898,7 @@ li:hover{
 		padding-left: 25px;
 	}
 	.subscribe{
-		padding-left: 5px;
+		padding-left: 2px;
 		padding-top: 0;
 		align-items: none;
 		display: block;	
@@ -898,6 +917,9 @@ li:hover{
 	.subscribe-text h1{
 		font-size: 30px;	
 	}
+	#fon{
+		width: 360px;
+	}
 	.subscribe-text h2{
 		padding-top: 10px;
 		font-size: 16px;
@@ -905,7 +927,8 @@ li:hover{
 	}
 	.subscribe-btn{
 		display: block;	
-		padding-left: 20px;	
+		padding-left: 2px;
+		margin-top: 20px;	
 	}
 	button{
 		margin-left: 35px;	
@@ -921,9 +944,12 @@ li:hover{
 	}
 	.unber2{
 		position: absolute;
-		width: 430px;
+		width: 380px;
 	}
 	.namber2{
 		padding-left: 10px;
+	}
+	#menu-btn{
+		display: block;
 	}
 }
